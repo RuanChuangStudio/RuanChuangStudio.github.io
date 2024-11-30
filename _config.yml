@@ -57,10 +57,10 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Binfinity
+author: RuanChuangStudio
 organization:
 organization_url:
-github_username: mzlogin
+github_username: RuanChuangStudio
 location: LiaoNIng, China
 email: binfinity@qq.com
 
@@ -74,26 +74,22 @@ navs:
   - href: /categories/
     label: 分类
 
-  - href: /archives/
-    label: 归档
-    mobile-hidden: true
-
   - href: /open-source/
     label: 开源
     mobile-hidden: true
 
   - href: /fragments/
-    label: 片段
+    label: 学习片段
 
-  - href: /wiki/
-    label: 维基
+  - href: /members/
+    label: 成员
 
   - href: /links/
-    label: 链接
+    label: 工作室简介
     mobile-hidden: true
 
   - href: /about/
-    label: 关于
+    label: 加入我们
 
 # ---------------- #
 #       RSS        #
