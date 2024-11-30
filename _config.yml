@@ -62,7 +62,7 @@ organization:
 organization_url:
 github_username: RuanChuangStudio
 location: LiaoNIng, China
-email: binfinity@qq.com
+email: binfinity2024@yeah.net
 
 # ---------------- #
 #    Navigation    #
@@ -84,11 +84,11 @@ navs:
   - href: /members/
     label: 成员
 
-  - href: /links/
+  - href: /about/
     label: 工作室简介
     mobile-hidden: true
 
-  - href: /about/
+  - href: /join/
     label: 加入我们
 
 # ---------------- #
