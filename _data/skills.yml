@@ -1,19 +1,50 @@
-- name: Software Engineer Keywords
+- name: programming language
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+    - Java
+    - C++
+    - Python
+    - JavaScript
+    - HTML
+    - CSS
+    - SQL
+    - Shell
 
-- name: Mobile Developer Keywords
+- name: Programming frameworks
   keywords:
-      - Android
-      - Reverse Engineering
+    - Spring
+    - Hibernate
+    - Struts
+    - Spring Boot
+    - koa
+    - React
+    - Angular
+    - Vue.js
+    - Node.js
+    - Express.js
+    - Django
+    - Flask
+    - Laravel
+    - echarts
 
-- name: Windows Developer Keywords
+- name: operating system
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+    - Win32 SDK
+    - MacOS
+    - Linux
+    - Windows
+    - Unix
+    - Android
+    - iOS
+
+- name: database
+  keywords:
+    - MySQL
+
+- name: tools
+  keywords:
+    - Git
+    - Maven
+    - Hadoop
+    - Spark
+    - Pycharm
+    - Idea
