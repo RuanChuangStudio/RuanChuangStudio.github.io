@@ -12,8 +12,12 @@
 
 - sitename: 负责人手机号（Wechat）
   name: 15042666684
-  url: #
+  url: https://github.com/RuanChuangStudio/RuanChuangStudio.github.io/blob/main/_data/img/wechat.jpg
 
 - sitename: 负责人QQ
   name: 2870639124
-  url: #
+  url: https://github.com/RuanChuangStudio/RuanChuangStudio.github.io/blob/main/_data/img/qq.jpg
+
+- sitename: 纳新群号（QQ）
+  name: 620943632
+  url: https://github.com/RuanChuangStudio/RuanChuangStudio.github.io/blob/main/_data/img/new.jpg
