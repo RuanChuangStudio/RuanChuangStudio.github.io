@@ -78,12 +78,6 @@ navs:
     label: 数据源
     mobile-hidden: true
 
-  - href: /fragments/
-    label: 学习片段
-
-  - href: /members/
-    label: 成员
-
   - href: /about/
     label: 工作室简介
     mobile-hidden: true
