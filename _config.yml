@@ -75,7 +75,7 @@ navs:
     label: 分类
 
   - href: /open-source/
-    label: 开源
+    label: 数据源
     mobile-hidden: true
 
   - href: /fragments/
