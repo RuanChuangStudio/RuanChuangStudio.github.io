@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Open Source Projects
-keywords: 开源,open-source,GitHub,开源项目
+title: 数据源
+keywords: 数据源,open-source,GitHub,data
 description: 开源改变世界。
 permalink: /open-source/
 ---
