@@ -6,6 +6,14 @@
   name: 软件创新工作室
   url: https://ruanchuangstudio.github.io/
 
-- sitename: 邮箱
-  name: binfinity2024
-  url: binfinity2024@yeah.net
+- sitename: 负责人邮箱
+  name: binfinity2024@yeah.net
+  url: mailto:binfinity2024@yeah.net
+
+- sitename: 负责人手机号（Wechat）
+  name: 15042666684
+  url: https://ruanchuangstudio.github.io/images/wechat.jpg
+
+- sitename: 负责人QQ
+  name: 348736645
+  url: https://ruanchuangstudio.github.io/images/qq.jpg

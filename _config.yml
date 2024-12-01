@@ -74,10 +74,6 @@ navs:
   - href: /categories/
     label: 分类
 
-  - href: /open-source/
-    label: 数据源
-    mobile-hidden: true
-
   - href: /about/
     label: 工作室简介
     mobile-hidden: true
