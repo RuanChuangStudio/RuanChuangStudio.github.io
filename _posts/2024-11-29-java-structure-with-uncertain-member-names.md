@@ -22,18 +22,18 @@ mindmap2: false
 
 ```json
 {
-    "errcode": 0,
-    "errmsg": "ok",
-    "department": [
-        {
-            "id": 2,
-            "name": "广州研发中心",
-            "name_en": "RDGZ",
-            "department_leader":["zhangsan","lisi"],
-            "parentid": 1,
-            "order": 10
-        }
-    ]
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 2,
+      "name": "广州研发中心",
+      "name_en": "RDGZ",
+      "department_leader": ["zhangsan", "lisi"],
+      "parentid": 1,
+      "order": 10
+    }
+  ]
 }
 ```
 
@@ -41,16 +41,16 @@ mindmap2: false
 
 ```json
 {
-    "errcode": 0,
-    "errmsg": "ok",
-    "userlist": [
-        {
-            "userid": "zhangsan",
-            "name": "张三",
-            "department": [1, 2],
-            "open_userid": "xxxxxx"
-        }
-    ]
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "zhangsan",
+      "name": "张三",
+      "department": [1, 2],
+      "open_userid": "xxxxxx"
+    }
+  ]
 }
 ```
 
@@ -161,26 +161,26 @@ Examples:
     @JsonAlias({ "n", "Name" })
     public String name;
   }
-  
+
 NOTE: Order of alias declaration has no effect. All properties are assigned in the order they come from incoming JSON document. If same property is assigned more than once with different value, later will remain. For example, deserializing
    public class Person {
       @JsonAlias({ "name", "fullName" })
       public String name;
    }
-   
+
 from
    { "fullName": "Faster Jackson", "name": "Jackson" }
-   
+
 will have value "Jackson".
 Also, can be used with enums where incoming JSON properties may not match the defined enum values. For instance, if you have an enum called Size with values SMALL, MEDIUM, and LARGE, you can use this annotation to define alternate values for each enum value. This way, the deserialization process can map the incoming JSON values to the correct enum values.
 Sample implementation:
 public enum Size {
        @JsonAlias({ "small", "s", "S" })
        SMALL,
-  
+
        @JsonAlias({ "medium", "m", "M" })
        MEDIUM,
-  
+
        @JsonAlias({ "large", "l", "L" })
        LARGE
    }
@@ -194,3 +194,7 @@ During deserialization, any of these JSON structures will be valid and correctly
 ## 小结
 
 有人总问，阅读别人源码的意义是什么，这也许就可以作为一个小例子吧。
+
+---
+
+written by [曹斌](https://github.com/AaaBinfinity)

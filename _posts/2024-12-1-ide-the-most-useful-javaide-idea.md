@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+
 # IntelliJ IDEA 最好用的 Java IDE
 
 ## Q&A
@@ -134,3 +135,7 @@ sudo chown -R <current_user>:<user_group> "/Application/IntelliJ IDEA.app"
 - [解决 IntelliJ IDEA 无法读取配置\*.properties 文件的问题](http://www.cnblogs.com/zqr99/p/7642712.html)
 - [How to build jars from IntelliJ properly?](https://stackoverflow.com/questions/1082580/how-to-build-jars-from-intellij-properly)
 - [Can I adjust the “100+ matches in X files” from Intellijs “find in path”](https://stackoverflow.com/questions/44803519/can-i-adjust-the-100-matches-in-x-files-from-intellijs-find-in-path)
+
+---
+
+written by [曹斌](https://github.com/AaaBinfinity)
