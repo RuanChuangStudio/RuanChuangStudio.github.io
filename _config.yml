@@ -164,8 +164,8 @@ beaudar:
 giscus:
   repo: RuanChuangStudio/ruanchuangstudio.github.io
   repo-id: R_kgDONVYhLQ
-  category:
-  category-id:
+  category: Ideas
+  category-id: DIC_kwDONVYhLc4Cktei
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus: false
 
