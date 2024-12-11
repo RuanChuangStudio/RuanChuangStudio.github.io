@@ -12,9 +12,9 @@ mindmap: false
 mindmap2: false
 ---
 
-# MySQL 实用指南 （持续更新）
-
 这是我自学 MySQL 的笔记，包括一些常用的命令、SQL 语句等，分享给大家，以后会持续更新。
+
+# MySQL 实用指南 （持续更新）
 
 ## 使用
 
