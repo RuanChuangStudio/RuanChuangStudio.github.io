@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Git学习笔记
+title: Git学习笔记与常用命令
 categories: [Git]
-description: Git学习笔记,Git常用命令
+description: Git常用命令
 keywords: Git,常用命令,学习笔记
 mermaid: false
 sequence: false
