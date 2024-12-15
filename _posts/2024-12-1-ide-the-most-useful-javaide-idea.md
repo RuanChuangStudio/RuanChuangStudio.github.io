@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IntelliJ IDEA 最好用的 Java IDE
-categories: [Java]
+categories: [Java, IDEA, IDE]
 description: 最好用的 Java IDE
 keywords: Java, IDEA , IDE ,工具
 mermaid: false

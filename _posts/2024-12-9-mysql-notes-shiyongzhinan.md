@@ -277,6 +277,5 @@ SELECT * FROM Orders LIMIT 15, 10; -- 等价于上面
 2. 检查 mysql 配置文件 my.cnf，确保 socket 路径正确
 3. 检查 mysql.sock 文件是否存在，如果不存在，可以尝试重启 mysql 服务生成该文件
 
-### 4. ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
 
-解决方法：
+written by [曹斌](https://github.com/AaaBinfinity)

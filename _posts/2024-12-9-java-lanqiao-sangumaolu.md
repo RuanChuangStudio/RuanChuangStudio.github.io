@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 三顾茅庐【优化算法】
-categories: [Java，算法，蓝桥杯]
+categories: [Java, 算法, 蓝桥杯]
 description: 在蓝桥杯官网练题库的时候遇到了这样一道题，觉得很有趣，分享给大家！
 keywords: Java, 蓝桥杯 , 算法 ,时间复杂度
 mermaid: false
@@ -322,3 +322,5 @@ sb.append(" World"); // 修改了原来的对象，无需创建新对象
 - **`StringBuilder` 是一个可变字符串类**，可以高效地修改字符串内容。
 - 它适用于单线程环境，在需要频繁操作字符串时是一个理想的选择。
 - 如果需要线程安全，使用 **`StringBuffer`**。
+
+written by [曹斌](https://github.com/AaaBinfinity)

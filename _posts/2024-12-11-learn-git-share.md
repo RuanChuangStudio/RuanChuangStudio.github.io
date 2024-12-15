@@ -448,3 +448,6 @@ GitFlow 是一种流程模型，用于在 Git 上管理软件开发项目。
 - `修补分支(hotfix)`:用于修复主分支上的紧急问题。修补分支应该从 master 分支派生，并在修复完成后合并回 master 和 develop 分支
 
 ---
+
+
+written by [曹斌](https://github.com/AaaBinfinity)
