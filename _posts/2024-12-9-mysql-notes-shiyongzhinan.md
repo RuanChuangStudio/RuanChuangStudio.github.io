@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 持续更新 · MySQL 实用指南
-categories: [sql，数据库，mysql]
+categories: [sql, 数据库, mysql]
 description: MySQL 实用指南
 keywords: sql，数据库，mysql
 mermaid: false
@@ -276,6 +276,5 @@ SELECT * FROM Orders LIMIT 15, 10; -- 等价于上面
 1. 检查 mysql 服务是否启动
 2. 检查 mysql 配置文件 my.cnf，确保 socket 路径正确
 3. 检查 mysql.sock 文件是否存在，如果不存在，可以尝试重启 mysql 服务生成该文件
-
 
 written by [曹斌](https://github.com/AaaBinfinity)
