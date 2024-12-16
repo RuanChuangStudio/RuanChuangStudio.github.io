@@ -1,3 +1,17 @@
+---
+layout: post
+title: Maven简介与使用
+categories: [Maven]
+description: Maven简介与使用
+keywords: Maven
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
+---
+
 **Maven** 是一个开源的**项目管理工具**，主要用于**Java 项目的构建、依赖管理和项目生命周期管理**。它由 Apache 软件基金会维护，是现代 Java 开发的重要工具之一。
 
 ---
@@ -310,15 +324,11 @@ Maven 会自动解析传递依赖，但开发者可以通过以下方式控制�
 
 3. **配置环境变量：**
 
-   - 添加 `MAVEN_HOME`
-
-     ：
+   - 添加 `MAVEN_HOME`：
 
      - 指向 Maven 解压路径，如 `C:\Program Files\Apache-Maven`。
 
-   - 更新 `PATH` 环境变量
-
-     ：
+   - 更新 `PATH` 环境变量：
 
      - 将 `MAVEN_HOME\bin` 添加到系统路径中。
 
@@ -517,21 +527,15 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：清理项目，删除上一次构建生成的文件和目录。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 删除 `target` 目录中的所有文件，包括 `.class` 文件、JAR/WAR 包、临时文件等。
 
-- 使用场景
-
-  ：
+- 使用场景：
 
   - 在重新构建项目之前清理旧的构建产物，确保构建环境干净。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn clean
@@ -543,22 +547,16 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：编译项目的主代码（`src/main/java`）。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 将 `src/main/java` 目录下的源代码编译为字节码文件，存放在 `target/classes` 目录中。
   - 不包括测试代码的编译。
-
-- 使用场景
-
-  ：
+  
+- 使用场景：
 
   - 检查代码的编译是否成功。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn compile
@@ -570,23 +568,17 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：运行测试代码（`src/test/java`）。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 编译测试代码（`src/test/java`）。
   - 使用指定的测试框架（如 JUnit 或 TestNG）运行单元测试。
   - 生成测试报告，默认存储在 `target/surefire-reports` 目录中。
-
-- 使用场景
-
-  ：
+  
+- 使用场景：
 
   - 验证代码功能是否符合预期。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn test
@@ -598,23 +590,17 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：打包项目为可执行文件（如 JAR、WAR）。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 先运行 `compile` 和 `test` 阶段。
   - 根据项目类型（由 `<packaging>` 指定），将项目打包为 JAR 或 WAR 文件。
   - 生成的文件存储在 `target` 目录中。
-
-- 使用场景
-
-  ：
+  
+- 使用场景：
 
   - 构建最终交付的文件（如库文件或可部署的应用程序）。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn package
@@ -626,23 +612,17 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：将项目的构建产物安装到本地仓库。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 运行 `clean`、`compile`、`test` 和 `package` 阶段。
   - 将生成的 JAR/WAR 包存储到本地仓库（默认路径：`~/.m2/repository`）。
   - 本地仓库中的依赖可以被其他项目直接引用。
-
-- 使用场景
-
-  ：
+  
+- 使用场景：
 
   - 本地项目之间的依赖共享。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn install
@@ -654,23 +634,17 @@ Maven 使用 `pom.xml` 文件管理项目的依赖关系。所有需要的库可
 
 - **作用**：将项目的构建产物上传到远程仓库。
 
-- 具体操作
-
-  ：
+- 具体操作：
 
   - 首先运行 `install` 阶段。
   - 使用 `distributionManagement` 中配置的远程仓库地址，将 JAR/WAR 包上传。
   - 通常需要配置用户凭据才能访问远程仓库。
-
-- 使用场景
-
-  ：
+  
+- 使用场景：
 
   - 将项目发布到团队共享的远程仓库（如 Nexus 或 Artifactory）。
 
-- 示例
-
-  ：
+- 示例：
 
   ```bash
   mvn deploy
