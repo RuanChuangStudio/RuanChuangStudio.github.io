@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hadoop 3.x 伪分布式搭建步骤
-categories: [Git]
+categories: [Hadoop]
 description: Hadoop 3.x 伪分布式搭建步骤
 keywords: Hadoop 3.x 伪分布式搭建步骤
 mermaid: false
@@ -12,6 +12,8 @@ mindmap: false
 mindmap2: false
 
 --- 
+
+在安装 Hadoop 之前，需要先安装 JDK（Java Development Kit）和 Hadoop。对于 Hadoop 3.x 版本，推荐使用 Java 1.8。注意
 
 ## **一. 下载 Java 1.8 和 Hadoop 3**
 
